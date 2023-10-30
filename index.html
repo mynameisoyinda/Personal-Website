@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oyindamola's portfolio</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.ico" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top" class="dark_theme">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1 class="h1 logo">
+        <a href="#">Oyindamola<span>...</span></a>
+      </h1>
+
+      <div class="navbar-actions">
+
+        <!--------This is for language selection (not neccessary)------
+        <select name="language" id="lang">
+          <option value="en">En</option>
+          <option value="ar">Ar</option>
+        </select> ------>
+
+        <button class="theme-btn" aria-label="Change Theme" title="Change Theme" data-theme-btn>
+          <span class="icon"></span>
+        </button>
+
+      </div>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" title="Toggle Menu" data-nav-toggle-btn>
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home.</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About.</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="navbar-link">Skills.</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="navbar-link">Portfolio.</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact.</a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article class="container">
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+
+        <figure class="hero-banner">
+
+          <picture>
+            <source srcset="./assets/images/New Profile Banner.png" media="(min-width: 768px)">
+            <source srcset="./assets/images/New Profile Banner.png" media="(min-width: 500px)">
+            <img src="./assets/images/New Profile Banner.png" alt="Oyindamola picture"
+              class="w-100">
+          </picture>
+
+        </figure>
+
+        <div class="hero-content">
+
+          <h2 class="h2 hero-title">Oyindamola <br/> Tech Creative</h2>
+
+          <a href="#contact" class="btn btn-primary">Get in touch</a>
+
+        </div>
+
+        <ul class="hero-social-list">
+
+          <li>
+            <a href="https://instagram.com/mynameisoyinda" class="hero-social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+
+              <div class="tooltip">Instagram</div>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://twitter.com/mynameisoyinda" class="hero-social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+
+              <div class="tooltip">Twitter</div>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="hero-social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+
+              <div class="tooltip">Linkedin</div>
+            </a>
+          </li>
+
+        </ul>
+
+        <a href="#stats" class="scroll-down">Scroll</a>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #STATS
+      -->
+
+      <section class="stats" id="stats">
+        <ul class="stats-list">
+
+          <li>
+            <a href="#" class="stats-card">
+
+              <div class="card-icon">
+                <img src="./assets/images/stats-card_icon-1.png" alt="Badge icon">
+              </div>
+
+              <h2 class="h2 card-title">
+                2+ <strong>Years of Experience</strong>
+              </h2>
+
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#project" class="stats-card">
+
+              <div class="card-icon">
+                <img src="./assets/images/stats-card_icon-2.png" alt="Checkmark icon">
+              </div>
+
+              <h2 class="h2 card-title">
+                16+ <strong>Completed Projects</strong>
+              </h2>
+
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#project" class="stats-card">
+
+              <div class="card-icon">
+                <img src="./assets/images/stats-card_icon-3.png" alt="Peoples rating icon">
+              </div>
+
+              <h2 class="h2 card-title">
+                25+ <strong>Happy Clients</strong>
+              </h2>
+
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+
+            </a>
+          </li>
+
+        </ul>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" id="about">
+
+        <figure class="about-banner">
+          <img src="./assets/images/New Profile Banner.png" alt="Oyindamola picture"
+            class="w-100">
+        </figure>
+
+        <div class="about-content section-content">
+
+          <p class="section-subtitle">About me</p>
+
+          <h2 class="h3 section-title">Need a Creative Product? I can Help You!</h2>
+
+          <p class="section-text">
+                    Hi there. My name is Oyinda and I'm a forward-thinking tech creative with a passion for merging the realms of technology and design. 
+                    With an initial solid background in video creation and motion graphics, I developed a keen passion for the creative and creation process, which then led to my deep dive into web development and design. 
+                    I have exceled in creating engaging digital experiences that resonate with audiences because I take a holistic approach to projects, ensuring each piece not only meets functional requirements but transcends into the realm of elegant art. 
+                    Over the years, I have collaborated with cross-disciplinary teams on a myriad of projects. 
+                    Each endeavor is approached with a blend of analytical thinking and creative problem-solving, always with an eye toward innovation and exemplary user experience. I continue to explore the frontier where technology meets creativity, ever-driven to inspire and be inspired by the digital world. 
+                    
+          </p>
+
+          <div class="btn-group">
+            <button class="btn btn-secondary"><a href="#contact">Hire me</a></button>
+
+            <button class="btn btn-primary"><a href="#https://docs.google.com/document/d/1SLpcwnEur94zwTV3Gx_BtXHKF0OzSavB/preview" target="_blank">Download CV</a></button>
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="skills" id="skills">
+
+        <div class="skills-content section-content">
+
+          <p class="section-subtitle">My skills</p>
+
+          <h2 class="h3 section-title">My Skills Include;</h2>
+
+          <p class="section-text">
+            I develop simple, intuitive and responsive user interface that helps users get things done with less effort
+            and time.
+          </p>
+
+          <div class="skills-toggle" data-toggle-box>
+            <button class="toggle-btn active" data-toggle-btn>Skills</button>
+
+            <button class="toggle-btn" data-toggle-btn>Tools</button>
+          </div>
+
+        </div>
+
+        <div class="skills-box" data-skills-box>
+
+          <ul class="skills-list">
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">HTML5</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/html5.png" alt="HTML5 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">CSS3</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/css3.png" alt="CSS3 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">JavaScript</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/javascript.png" alt="JavaScript logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+                <div class="skill-card">
+                  <div class="tooltip">Bootstrap</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/bootstrap.png" alt="Bootstrap logo">
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">React</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/react.png" alt="React logo">
+                  </div>
+                </div>
+              </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">TypeScript</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/typescript.png" alt="TypeScript logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">jQuery</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/jquery.png" alt="jQuery logo">
+                </div>
+              </div>
+            </li>
+
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Vue</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/vue.png" alt="Vue logo">
+                </div>
+              </div>
+            </li>
+
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">SASS</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/sass.png" alt="SASS logo">
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+          <ul class="tools-list">
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Ajax</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/ajax.png" alt="Ajax logo">
+                </div>
+              </div>
+            </li>
+
+            
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Git</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/git.png" alt="Git logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Npm</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/npm.png" alt="Npm logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Command Line</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/command.png" alt="Command Line logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">VS Code</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/vs-code.png" alt="VS Code logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Trello</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/trello.png" alt="Trello logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">ClickUp</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/clickup.png" alt="ClickUp logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Slack</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/slack.png" alt="Slack logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Premiere Pro</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/Premiere pro1.png" alt="Photoshop logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">After Effects</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/After effects.png" alt="Adobe XD logo">
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECTS
+      -->
+
+      <section class="project" id="portfolio">
+
+        <ul class="project-list">
+
+          <li>
+            <div class="project-content section-content">
+
+              <p class="section-subtitle">My Projects</p>
+
+              <h2 class="h3 section-title">Here are some of the projects I've worked on. I'm pretty sure you'll be impressed!</h2>
+
+              <p class="section-text">
+                Clean, easy, elegant and well docmented.
+              </p>
+
+            </div>
+          </li>
+
+          <li>
+            <a href="#" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/Project Screenshot 1.png" class="w-100" alt="A macintosh on a yellow background.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">My Personal Website</h3>
+
+                <time class="publish-date" datetime="2023-08">September 2023</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="https://youtube.com/playlist?list=PLPJ25cYg3eEqQYKlOi81xt-ItH3CHz7YE&si=Evp_ib151TQ8jd_d" target="_blank" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/Project Screenshot 2.png" class="w-100" alt="On a Blue background, a Wacom and a mouse.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">TV Series Project</h3>
+
+                <time class="publish-date" datetime="2022-08">August 2022</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="https://youtu.be/-dJv1SJnfLo?si=aRrppmLbl0qK570k" target="_blank" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/Project Screenshot 3.png" class="w-100"
+                  alt="A Cassette tape on a mellow apricot background.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">TV Commercial for Clooper</h3>
+
+                <time class="publish-date" datetime="2022-04">April 2022</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="https://youtu.be/gHgW-DZ9ekk?si=RCgXSsNSIe2wH_43" target="_blank" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/Project Screenshot 4.png" class="w-100"
+                  alt="Blue digital watch on a dark liver background.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">Wedding Event Project</h3>
+
+                <time class="publish-date" datetime="2022-09">September 2022</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.youtube.com/@fitdeseos/featured" target="_blank" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/Project Screenshot 5.png" class="w-100"
+                  alt="On a dark liver background, Airport luggage car carrying a luggage.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">Fitness Content Project for Deseos</h3>
+
+                <time class="publish-date" datetime="2022-07">July 2022</time>
+              </div>
+
+            </a>
+          </li>
+
+         <!-- <li>
+            <a href="#" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/project-6.png" class="w-100"
+                  alt="On a yellow background, a digital watch and a glass.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">Lorem Ipsum Dolor 06</h3>
+
+                <time class="publish-date" datetime="2022-04">April 2022</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="project-card">
+
+              <figure class="card-banner">
+                <img src="./assets/images/project-7.png" class="w-100"
+                  alt="A fujifilm instant camera on a dark electric blue background.">
+              </figure>
+
+              <div class="card-content">
+                <h3 class="h4 card-title">Lorem Ipsum Dolor 07</h3>
+
+                <time class="publish-date" datetime="2022-04">April 2022</time>
+              </div>
+
+            </a>
+          </li>
+
+          <li>
+            <button class="load-more">load more work...</button>
+          </li>  ---->
+
+        </ul>
+
+      </section>  
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="contact" id="contact">
+
+        <div class="contact-content section-content">
+
+          <p class="section-subtitle">Contact</p>
+
+          <h2 class="h3 section-title">Got a Project? Please Drop a Message.</h2>
+
+          <p class="section-text">
+            Get in touch with me. Fill out the form and I'll get back to you as soon as possible.
+          </p>
+
+          <ul class="contact-list">
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Address:</h3>
+
+                <address class="contact-info">
+                   Lindenwold, New Jersey, USA 08021
+                </address>
+              </div>
+
+            </li>
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Phone:</h3>
+
+                <a href="tel:+18562571294" class="contact-info">+1 (856) 257 1294</a>
+
+                <a href="tel:+18562571294" class="contact-info">+1 (856) 257 1294</a>
+              </div>
+
+            </li>
+
+            <li class="contact-list-item">
+
+              <div class="contact-item-icon">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Email:</h3>
+
+                <a href="mailto:info@mynameisoyinda.com" class="contact-info">info@mynameisoyinda.com</a>
+
+                <a href="mailto:support@mynameisoyinda.com" class="contact-info">support@mynameisoyinda.com</a>
+              </div>
+
+            </li>
+
+            <li>
+              <ul class="contac-social-list">
+
+                <li>
+                  <a href="#" class="contact-social-link">
+                    <div class="tooltip">Facebook</div>
+
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="contact-social-link">
+                    <div class="tooltip">Twitter</div>
+
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="contact-social-link">
+                    <div class="tooltip">Linkedin</div>
+
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="contact-social-link">
+                    <div class="tooltip">Youtube</div>
+
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <form action="" class="contact-form">
+
+          <div class="form-wrapper">
+
+            <label for="name" class="form-label">Name</label>
+
+            <div class="input-wrapper">
+
+              <input type="text" name="name" id="name" required placeholder="e.g John Doe" class="input-field">
+
+              <ion-icon name="person-circle"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <div class="form-wrapper">
+
+            <label for="email" class="form-label">Email</label>
+
+            <div class="input-wrapper">
+
+              <input type="email" name="email" id="email" required placeholder="e.g johndoe@mail.com"
+                class="input-field">
+
+              <ion-icon name="mail"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <div class="form-wrapper">
+
+            <label for="phone" class="form-label">Phone</label>
+
+            <div class="input-wrapper">
+
+              <input type="tel" name="phone" id="phone" required placeholder="Phone Number" class="input-field">
+
+              <ion-icon name="call"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <div class="form-wrapper">
+
+            <label for="message" class="form-label">Message</label>
+
+            <div class="input-wrapper">
+
+              <textarea name="message" id="message" required placeholder="Write message..."
+                class="input-field"></textarea>
+
+              <ion-icon name="chatbubbles"></ion-icon>
+
+            </div>
+
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send</button>
+
+        </form>
+
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="h1 logo">
+        <a href="#">
+          mynameisoyinda<span>.</span>
+        </a>
+      </p>
+
+      <p class="copyright">
+        &copy; 2023 <a href="#">Oyindamola</a>. All rights reserved
+      </p>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top title="Go to Top">
+    <ion-icon name="arrow-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
